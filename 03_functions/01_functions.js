@@ -30,8 +30,24 @@ function loginUserMessage(username){
         console.log("please enter a userneme")
         return
 
-    }
+    } 
     return `${username} just loggen in`
 }
 //console.log(loginUserMessage("nandini"))
 //console.log(loginUserMessage())
+
+function calculateCarPrice(...num1){
+    return num1
+}
+//console.log(calculateCarPrice(200,400,600))
+
+  
+const user ={
+    username:"nan",
+    price:999
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`)
+}
+handleObject(user)
